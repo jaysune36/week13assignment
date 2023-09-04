@@ -1,8 +1,11 @@
+// importing React to render JSX methods
 import React from "react";
 
+// creating and exporting Nav class to be used on other component files
 export default class Nav extends React.Component {
   render() {
     return (
+      // Using JSX for HTML markup and installed Bootstrap for stylings
       <div>
          <nav className="navbar-light bg-warning-subtle p-2">
           <ul className="navbar-nav" id="navBar">
