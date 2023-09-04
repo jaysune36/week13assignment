@@ -12,7 +12,7 @@ export default class LoginForm extends React.Component {
       <label for="userName" className="form-label">Username</label>
       <input type="text" id="userName" className="form-control" name="userName"></input>
       <label for="password" id="form-label">Password</label>
-      <input type="text" id="password" className="form-control" name="password"></input>
+      <input type="password" id="password" className="form-control" name="password"></input>
     </form>
       </div>
     )
